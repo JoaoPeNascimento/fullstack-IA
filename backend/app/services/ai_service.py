@@ -21,7 +21,7 @@ class SummarizeService:
 
         result = {
             "summary_text": summary[0]['summary_text'],
-            "elapsed_time_ms": elapsed_time
+            "elapsed_time": elapsed_time
         }
 
         return result
