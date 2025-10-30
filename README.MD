@@ -1,5 +1,5 @@
+# Aplicação full-stack desenvolvida com **FastAPI (Python)** no back-end e **React + Vite** no front-end, com integração de **IA para resumo de texto**.
 
-# Aplicação full-stack desenvolvida com **FastAPI (Python)** no back-end e **React + Vite** no front-end, com integração de **IA para análise de texto**.
 ---
 
 ## 📋 Visão Geral
@@ -17,6 +17,7 @@ O fluxo completo é o seguinte:
 ## ⚙️ Tecnologias Utilizadas
 
 ### **Backend**
+
 - 🐍 Python 3.12
 - ⚡ FastAPI
 - 🧩 Uvicorn
@@ -25,17 +26,21 @@ O fluxo completo é o seguinte:
 - 🔒 Suporte a variáveis de ambiente e CORS habilitado
 
 ### **Frontend**
+
 - ⚛️ React + Vite
 - 🎨 CSS / Tailwind
 - 🔄 Axios para requisições HTTP
 - ⏳ Estados de Loading e tratamento de erros
 
 ### **Infraestrutura**
+
 - 🐳 Docker & Docker Compose
 
 ---
 
 ## 🏗️ Arquitetura do Projeto
+
+```
 /backend
 │── app/
 │ ├── main.py
@@ -68,6 +73,7 @@ O fluxo completo é o seguinte:
 
 /docker-compose.yml
 /README.md
+```
 
 ---
 
@@ -91,7 +97,7 @@ VITE_API_URL=http://localhost:8000/api/v1
 
 docker compose up --build
 
-###🧩 Passo 4 — Acessar no navegador
+### 🧩 Passo 4 — Acessar no navegador
 
 Front-end: http://localhost:5173
 
@@ -113,20 +119,19 @@ O sistema analisa o texto fornecido e retorna um resumo conciso.
 
 Recriar containers:
 
-docker compose up --build
-
+- docker compose up --build
 
 Parar containers:
 
-docker compose down
-
+- docker compose down
 
 Ver logs:
 
-docker compose logs -f backend
-docker compose logs -f frontend
+- docker compose logs -f backend
+- docker compose logs -f frontend
 
 ## 🧑‍💻 Autor
 
 João Nascimento
+
 Desenvolvedor Full-Stack em formação
